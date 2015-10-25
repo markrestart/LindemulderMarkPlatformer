@@ -1,0 +1,32 @@
+/* Mark Lindemulder DIG 3480 */
+.background    { background: rgb(134, 184, 177);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(250, 42, 0); }
+.wall          { background: rgb(61, 28, 0); }
+.invisiwall          { background: rgb(134, 184, 177); }
+
+.actor  { position: absolute;  }
+.coin   { 
+background: rgb(242, 214, 148); 
+box-shadow: 0px 0px 15px white;}
+.coin   { box-shadow: 0px 0px 15px white; }
+.player { background: rgb(240, 216, 168);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+background: rgb(160, 64, 64); 
+
+
+}
+.won .player {
+  box-shadow: -4px -7px 8px blue, 4px -7px 8px blue; 
+  
+}
